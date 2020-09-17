@@ -1,6 +1,6 @@
 const discord = require('discord.js')
 const bot = new discord.Client()
-const config = require('./system/config/bot.json')
+const config = require('./system/config.json')
 const fs = require('fs')
 //consg ytdl = require('ytdl')
 bot.login(config.token)
