@@ -5,6 +5,8 @@ const fs = require('fs')
 //consg ytdl = require('ytdl')
 bot.login(config.token)
 
+if(config.token.includes("Insert")) return console.log("You havent entered your bot token!. Please go to ./system/config.json and edit the bot token")
+
 bot.programs = new discord.Collection()
 const programs = fs.readdirSync('./system/executables').filter(file=>file.endsWith('.js'))
 for (const file of programs){
