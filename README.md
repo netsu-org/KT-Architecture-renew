@@ -2,7 +2,7 @@
 
 KT Architecture is a newnewed Open source Discord bot programs. Capable of creating a DOS-like javascript executables and such.
 
-This will not have the same functionality as NETto!_OS and other programs created by NETto. Everything will be fully open source and can be function as best as user suggestions.
+This will have similar developing environment and programming similarities. Because KT was fundementally based on NETto!-NT Architecture. And the way it compiles the data is also similar
 
 ## Installation
 Use the npm command to install necessary modules
